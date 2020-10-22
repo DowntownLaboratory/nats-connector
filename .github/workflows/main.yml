@@ -43,4 +43,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/multiarch-node:latest
+            ${{ secrets.DOCKER_USERNAME }}/nats-connector:latest
